@@ -67,3 +67,4 @@ class TwitterFlagBot:
 if __name__ == "__main__":
     bot = TwitterFlagBot()
     bot.run()
+
