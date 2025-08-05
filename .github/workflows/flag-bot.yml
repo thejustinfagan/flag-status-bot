@@ -16,7 +16,7 @@ jobs:
         run: |
           pip install -r requirements.txt
       - name: Run bot
-        run: python bot.py
+        run: python flag-status-bot.py
         env:
           TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
           TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
